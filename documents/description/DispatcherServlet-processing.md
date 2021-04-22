@@ -5,10 +5,13 @@
 ![dispatcher-servlet-processing](img/DispatcherServlet-Processing.PNG)
 
 #### HandlerMapping
+요청을 분석해 MappingRegistry 에서 요청을 처리할 컨트롤러 메서드를 찾습니다.
 
 #### HandlerAdapter
+Controller 메서드를 실행할 adapter 를 검색합니다.
 
 #### Interceptor
+컨트롤러 실행 전/후처리 작업을 합니다.
 
 #### ArgumentResolver
 
@@ -25,12 +28,15 @@
 
 
 
-#### Controller**
+#### Controller
+비즈니스 로직을 이용해 처리합니다.
 
 #### ReturnValueHandler
+컨트롤러에서 반환받은 결과값을 처리합니다.
 
 #### LocaleResolver
 
 #### ViewResolver
+결과값을 이용해 클라이언트에게 렌더링 할 view 를 선택합니다.
 
 #### HandlerExceptionResolver
