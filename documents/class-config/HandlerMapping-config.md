@@ -1,4 +1,17 @@
-
+this.handlerMapping
 - RequestMappingHandlerMapping
 - BeanNameUrlHandlerMapping
 - WebMvcConfigurationSupport
+
+AbstractHandlerMapping$getHandler
+
+AbstractHandlerMethodMapping#getHandlerInternal <br>
+AbstractHandlerMethodMapping#lookupHandlerMethod <br>
+
+AbstractHandlerMapping$getHandlerExecutionChain
+
+
+this.adaptedInterceptors
+
+ConversionServiceExposingInterceptor <br>
+ResourceUrlProviderExposingInterceptor <br>
